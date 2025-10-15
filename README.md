@@ -1,6 +1,6 @@
 # HanaZoom Backend
 
-HanaZoom 백엔드 서버는 Spring Boot 3.2.3 기반으로 구축된 우리 동네 주식 맛집 지도 서비스 / WTS 플랫폼 / 디지털 PB 상담 서비스의 API 서버입니다.
+위 레포지토리는 Spring Boot 3.2.3 기반으로 구축된 우리 동네 주식 맛집 지도 서비스 / WTS 플랫폼 / 디지털 PB 상담 서비스의 API 서버를 제공합니다.
 
 ## 🛠 기술 스택
 
