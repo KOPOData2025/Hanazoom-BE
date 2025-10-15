@@ -21,7 +21,7 @@ public class StockLogoUpdaterService {
     private final RestTemplate restTemplate = new RestTemplate();
 
 
-    private static final String TOSS_LOGO_URL_PATTERN = "https:
+    private static final String TOSS_LOGO_URL_PATTERN = "https://thumb.tossinvest.com/image/resized/48x0/https%3A%2F%2Fstatic.toss.im%2Fpng-icons%2Fsecurities%2Ficn-sec-fill-%s.png";
 
     @Transactional
     public void updateAllStockLogos() {

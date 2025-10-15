@@ -392,6 +392,6 @@ public class PbRoomWebRTCController {
     }
 
     private String generateInviteUrl(UUID roomId) {
-        return "https:
+        return "https://hanazoom.com/join/" + roomId;
     }
 }

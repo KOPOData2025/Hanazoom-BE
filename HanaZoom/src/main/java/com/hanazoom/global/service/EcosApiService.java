@@ -29,7 +29,7 @@ public class EcosApiService {
     @Value("${ecos.api.key}")
     private String bokApiKey;
 
-    private static final String ECOS_API_BASE_URL = "https:
+    private static final String ECOS_API_BASE_URL = "https://ecos.bok.or.kr/api";
     private static final String SERVICE_NAME = "StatisticSearch";
     private static final String REQUEST_TYPE = "json";
     private static final String LANGUAGE = "kr";

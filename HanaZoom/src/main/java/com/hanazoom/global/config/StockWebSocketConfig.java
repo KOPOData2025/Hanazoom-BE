@@ -20,6 +20,6 @@ public class StockWebSocketConfig implements WebSocketConfigurer {
 
 
         registry.addHandler(stockWebSocketHandler, "/ws/stocks")
-        .setAllowedOriginPatterns("http:
+        .setAllowedOriginPatterns("http://localhost:3000", "http://localhost:3001");
     }
 }

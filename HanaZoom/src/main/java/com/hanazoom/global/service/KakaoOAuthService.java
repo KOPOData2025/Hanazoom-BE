@@ -30,8 +30,8 @@ public class KakaoOAuthService {
     @Value("${kakao.oauth.redirect-uri}")
     private String redirectUri;
 
-    private static final String KAKAO_TOKEN_URL = "https:
-    private static final String KAKAO_USER_INFO_URL = "https:
+    private static final String KAKAO_TOKEN_URL = "https://kauth.kakao.com/oauth/token";
+    private static final String KAKAO_USER_INFO_URL = "https://kapi.kakao.com/v2/user/me";
 
     public KakaoTokenResponse getAccessToken(String code) {
         HttpHeaders headers = new HttpHeaders();

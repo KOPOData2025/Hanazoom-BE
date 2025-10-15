@@ -21,7 +21,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Bean
     public WebClient kakaoWebClient() {
         return WebClient.builder()
-                .baseUrl("https:
+                .baseUrl("https://dapi.kakao.com")
                 .defaultHeader("Authorization", "KakaoAK " + kakaoRestApiKey)
                 .build();
     }
@@ -29,7 +29,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Bean
     public WebClient kisWebClient() {
         return WebClient.builder()
-                .baseUrl("https:
+                .baseUrl("https://openapivts.koreainvestment.com:29443")
                 .defaultHeader("Content-Type", "application/json")
                 .build();
     }

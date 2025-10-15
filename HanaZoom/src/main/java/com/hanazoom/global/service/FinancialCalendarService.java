@@ -29,7 +29,7 @@ public class FinancialCalendarService {
     private String ecosApiKey;
 
 
-    private static final String ECOS_BASE_URL = "https:
+    private static final String ECOS_BASE_URL = "https://ecos.bok.or.kr/api";
     private static final String SERVICE_NAME = "StatisticSearch";
     private static final String REQUEST_TYPE = "xml";
     private static final String LANGUAGE = "kr";

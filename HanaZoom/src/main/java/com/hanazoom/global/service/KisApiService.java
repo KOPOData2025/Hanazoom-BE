@@ -189,7 +189,7 @@ public class KisApiService {
             issueAccessToken();
         }
 
-        String url = "https:
+        String url = "https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/quotations/inquire-price"
                 + "?FID_COND_MRKT_DIV_CODE=J&FID_INPUT_ISCD=" + stockCode;
         
         log.info("🌐 KIS API 현재가 조회 요청: URL={}, 종목코드={}", url, stockCode);
@@ -253,7 +253,7 @@ public class KisApiService {
 
         try {
             String response = webClient.get()
-                    .uri("https:
+                    .uri("https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/quotations/search-stock-info"
                             +
                             "?PRDT_TYPE_CD=300&PDNO=" + stockCode)
                     .header("authorization", "Bearer " + kisConfig.getAccessToken())
@@ -296,7 +296,7 @@ public class KisApiService {
 
         try {
             String response = webClient.get()
-                    .uri("https:
+                    .uri("https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/quotations/inquire-daily-itemchartprice"
                             + "?FID_COND_MRKT_DIV_CODE=J"
                             + "&FID_INPUT_ISCD=" + stockCode
                             + "&FID_INPUT_DATE_1=" + startDate 
@@ -328,7 +328,7 @@ public class KisApiService {
 
         try {
             String response = webClient.get()
-                    .uri("https:
+                    .uri("https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/quotations/inquire-time-itemchartprice"
                             + "?FID_COND_MRKT_DIV_CODE=J"
                             + "&FID_INPUT_ISCD=" + stockCode
                             + "&FID_INPUT_HOUR_1=" 
@@ -359,7 +359,7 @@ public class KisApiService {
 
         try {
             String response = webClient.get()
-                    .uri("https:
+                    .uri("https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/quotations/inquire-asking-price-exp-ccn"
                             +
                             "?FID_COND_MRKT_DIV_CODE=J&FID_INPUT_ISCD=" + stockCode)
                     .header("authorization", "Bearer " + kisConfig.getAccessToken())

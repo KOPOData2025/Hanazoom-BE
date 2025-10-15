@@ -32,12 +32,12 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
         public void registerStompEndpoints(StompEndpointRegistry registry) {
 
                 registry.addEndpoint("/ws/pb-room")
-                                .setAllowedOriginPatterns("http:
+                                .setAllowedOriginPatterns("http://localhost:3000", "http://localhost:3001")
                                 .withSockJS();
 
 
                 registry.addEndpoint("/ws/pb-room")
-                                .setAllowedOriginPatterns("http:
+                                .setAllowedOriginPatterns("http://localhost:3000", "http://localhost:3001");
         }
 
         @Override
