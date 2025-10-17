@@ -49,6 +49,53 @@
 | --------------------------------------- | ---------------------------------- | --------------------------------------------------------- |
 | WebRTC 기반 화상 통화<br>화면 공유 기능 | 실시간 상담 예약<br>상담 기록 관리 | 지역 특성 기반 포트폴리오 분석<br>자산 리밸런싱 전략 수립 |
 
+## 4. 기술 스택
+
+<div align="center">
+
+### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=for-the-badge&logo=react&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0EA5E9?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
+![Kakao Map](https://img.shields.io/badge/Kakao%20Map-FFC800?style=for-the-badge&logo=kakao&logoColor=000000)
+![WebSocket](https://img.shields.io/badge/WebSocket-6B7280?style=for-the-badge)
+![STOMP](https://img.shields.io/badge/STOMP-2D3748?style=for-the-badge)
+![SockJS](https://img.shields.io/badge/SockJS-CC0000?style=for-the-badge)
+![WebRTC](https://img.shields.io/badge/WebRTC-2563EB?style=for-the-badge&logo=webrtc&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-3C3C3C?style=for-the-badge)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge)
+![Recharts](https://img.shields.io/badge/Recharts-8884D8?style=for-the-badge)
+![Lightweight%20Charts](https://img.shields.io/badge/Lightweight%20Charts-2B6CB0?style=for-the-badge)
+
+### Backend
+![Java 17](https://img.shields.io/badge/Java%2017-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Web](https://img.shields.io/badge/Spring%20Web-6DB33F?style=for-the-badge)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![Validation](https://img.shields.io/badge/Validation-6DB33F?style=for-the-badge)
+![WebSocket](https://img.shields.io/badge/WebSocket-6DB33F?style=for-the-badge)
+![STOMP](https://img.shields.io/badge/STOMP-2D3748?style=for-the-badge)
+![WebFlux/WebClient](https://img.shields.io/badge/WebFlux%2FWebClient-6DB33F?style=for-the-badge)
+![JPA/Hibernate](https://img.shields.io/badge/JPA%2FHibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00618A?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-10AA50?style=for-the-badge&logo=mongodb&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+
+### Infra & DevOps
+![Docker](https://img.shields.io/badge/Docker-1590CF?style=for-the-badge&logo=docker&logoColor=white)
+![AWS EC2/ECR](https://img.shields.io/badge/AWS%20EC2%2FECR-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+### Testing
+![Gatling](https://img.shields.io/badge/Gatling-E6590C?style=for-the-badge&logo=gatling&logoColor=white)
+
+</div>
+
 ## 5. 시스템 아키텍처
 
 ### 라이트모드에 보기 적합한 점 알려드립니다.
