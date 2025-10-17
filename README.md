@@ -185,7 +185,7 @@ _TIL-2025-09-16_
 
 |     구분      |              내용              |                                비고                                 |
 | :-----------: | :----------------------------: | :-----------------------------------------------------------------: |
-|   **이름**    |             허동민             |       <img src="https://avatars.githubusercontent.com/u/131800093?v=4" width="150"/>        |
+|   **이름**    |             허동민             |       <img src="/readme_assets/허동민_프로필사진.PNG" width="150"/>        |
 |  **연락처**   |             이메일             |                      happycodingmin@gmail.com                       |
 |   **학력**    |    홍익대학교 컴퓨터공학과     |                            졸업(2024.02)                            |
 | **Skill set** |        Language & Tools        |        Java, C, Python, JavaScript, Spring, Kafka, RabbitMQ         |
